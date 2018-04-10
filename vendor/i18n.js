@@ -513,7 +513,7 @@
     var fullScope           = this.getFullScope(scope, options);
     var fullScopeWithLocale = [this.currentLocale(), fullScope].join(this.defaultSeparator);
 
-    return '[missing "' + fullScopeWithLocale + '" translation]';
+    return 'Loading...';
   };
 
   // Return a missing placeholder message for given parameters
